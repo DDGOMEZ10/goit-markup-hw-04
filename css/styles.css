@@ -477,18 +477,6 @@ padding-top: 14.1px;
 
 
 
-.holas{
-  cursor: pointer;
-  
-  
-  display: block;
-}
-
-.holas:hover {
-  fill: var(--logo-color);
-  color: var(--logo-color);
-  
-}
 
 
 .link_studio {
