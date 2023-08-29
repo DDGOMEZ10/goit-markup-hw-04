@@ -244,14 +244,16 @@ padding: 0;
 
   
   
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/Imagen_fondo-principal.jpg');
-  background-size: 1600px 600px;
+  
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),  url('../images/Imagen_fondo-principal.jpg');
+  background-size: cover;
   
   
  
 
   
   text-align: center;
+ 
   height: 600px;
   display: flex;
   align-items: center;
@@ -535,7 +537,7 @@ padding-top: 14.1px;
     
   
   }
-  .cards-portafolio:hover{
+  .card2:hover{
     border: 1px solid #EEE;
     background: #FFF;
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
