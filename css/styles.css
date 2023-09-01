@@ -59,7 +59,7 @@ body {
 
 
 .nav_contact {
-  
+  justify-content: space-between;
   color: var(--footer-text-color);
   line-height: 1.17;
   display: flex;
@@ -131,14 +131,14 @@ body {
 
 .navigation{
   display: flex;
-  
+  justify-content: space-between;
   align-items: center;
 }
 
 .list-icons {
   display: flex;
   list-style-type:none;
-  
+  justify-content: space-between;
   
 gap: 30px;
 padding: 0;
@@ -152,6 +152,7 @@ padding: 0;
 }
 
 .list{
+  justify-content: space-between;
   font-size: 14px;
   font-weight: 500;
   display: flex;
@@ -196,6 +197,7 @@ padding: 0;
 
 
 .link-principal {
+  
     color: var(--logo-color);
     font-size: 26px
     ;
@@ -229,6 +231,7 @@ padding: 0;
 
 
 .title1{
+  justify-content: space-between;
     font-size: 44px;
     line-height: 1.17;
     font-weight: 900;
@@ -243,12 +246,12 @@ padding: 0;
 .introduction{
 
   
-  
+  justify-content: space-between;
   
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),  url('../images/Imagen_fondo-principal.jpg');
   background-size: cover;
   max-width: 1600px;
-  
+  margin:auto;
  
 
   
@@ -270,10 +273,12 @@ padding: 0;
 
 
 .section-dedicamos{
+  
   padding-top: 0;
 }
 
 .title2{
+  
     font-size: 36px;
     line-height: 1.17;
     font-weight: var(--font-weight-titles);
@@ -303,7 +308,7 @@ width: 270px;
 
 
 .img-container-work{
-  
+  justify-content: space-between;
   list-style-type:none;
   display: flex;
   gap: 30px;
@@ -382,7 +387,7 @@ width: 370px;
 
 
 .img-container-team{
-    
+  justify-content: space-between;
     line-height: 1.17;
     list-style-type:none;
     display: flex;
@@ -660,7 +665,7 @@ padding: 10px 32px;
   
   
   text-align: center;
-  justify-content: center;
+  justify-content: space-between;
 
   padding-top: 0;
   gap: 30px;
@@ -682,6 +687,7 @@ text-transform: uppercase;
 
 }
 .icons-footer{
+  
   list-style-type: none;
   display: flex;
   gap: 10px;
@@ -693,6 +699,7 @@ text-transform: uppercase;
 }
 
 .container-footer{
+  
   width: 206px;
 height: 80px;
   margin-left: 70px;
@@ -746,6 +753,7 @@ height: 95px;
   color: var(--logo-color);
 }
 .container-final{
+  
   display: flex;
 }
 
@@ -766,6 +774,7 @@ letter-spacing: 1.08px;
 }
 
 .regulars{
+  justify-content: space-between;
   list-style: none;
   display: flex;
   gap: 30px;
